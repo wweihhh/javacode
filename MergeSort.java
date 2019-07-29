@@ -4,6 +4,7 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {4,2,3,1,7,88,0,6};
         mergeSort(arr);
+        System.out.println("排好了");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+" ");
         }
